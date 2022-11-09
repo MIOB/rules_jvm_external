@@ -5,7 +5,7 @@ COURSIER_CLI_GITHUB_ASSET_URL = "https://github.com/MIOB/coursier/releases/downl
 
 # Run 'bazel run //:mirror_coursier' to upload a copy of the jar to the Bazel mirror.
 COURSIER_CLI_BAZEL_MIRROR_URL = "https://mirror.bazel.build/coursier_cli/" + COURSIER_CLI_HTTP_FILE_NAME + ".jar"
-COURSIER_CLI_SHA256 = "e7e23ac8b0acb11bc14da4e6ab3c318ec7299afbdfce75beec99ead5aa955386"
+COURSIER_CLI_SHA256 = "3e298e918dcefbb452b6f8fbbeb6486800dccea50d62c44fe48e4eb296a1cf3d"
 
 JQ_VERSIONS = {
     "linux": struct(
