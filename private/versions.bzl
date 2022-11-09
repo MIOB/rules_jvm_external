@@ -1,11 +1,11 @@
-_COURSIER_CLI_VERSION = "v2.1.0-M7"
+_COURSIER_CLI_VERSION = "v2.1.0-M7-CUSTOM"
 
 COURSIER_CLI_HTTP_FILE_NAME = ("coursier_cli_" + _COURSIER_CLI_VERSION).replace(".", "_").replace("-", "_")
-COURSIER_CLI_GITHUB_ASSET_URL = "https://github.com/coursier/coursier/releases/download/{COURSIER_CLI_VERSION}/coursier.jar".format(COURSIER_CLI_VERSION = _COURSIER_CLI_VERSION)
+COURSIER_CLI_GITHUB_ASSET_URL = "https://github.com/MIOB/coursier/releases/download/{COURSIER_CLI_VERSION}/coursier.jar".format(COURSIER_CLI_VERSION = _COURSIER_CLI_VERSION)
 
 # Run 'bazel run //:mirror_coursier' to upload a copy of the jar to the Bazel mirror.
 COURSIER_CLI_BAZEL_MIRROR_URL = "https://mirror.bazel.build/coursier_cli/" + COURSIER_CLI_HTTP_FILE_NAME + ".jar"
-COURSIER_CLI_SHA256 = "37e4b11139a1c547d1a564d1d169c9caf781260bc6563599e7aaf8d9a7ad934d"
+COURSIER_CLI_SHA256 = "e7e23ac8b0acb11bc14da4e6ab3c318ec7299afbdfce75beec99ead5aa955386"
 
 JQ_VERSIONS = {
     "linux": struct(
